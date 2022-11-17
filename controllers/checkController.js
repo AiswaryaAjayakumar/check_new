@@ -1,13 +1,13 @@
-const bodyParser = require('body-parser')
+var bodyParser = require('body-parser')
 
-const express= require('express')
+var express= require('express')
 
-const mongoose =require('mongoose')
-const { checkModel } = require("../models/checkModel")
+var mongoose =require('mongoose')
+var { checkModel } = require("../models/checkModel")
 
 
 
-const checkRouter= express.Router()
+var checkRouter= express.Router()
 
 
 checkRouter.use(bodyParser.urlencoded({extended:false}))

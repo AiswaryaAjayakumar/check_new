@@ -1,6 +1,6 @@
-const bodyParser = require('body-parser')
-const express=require('express')
-const mongoose=require('mongoose')
+var bodyParser = require('body-parser')
+var express=require('express')
+var mongoose=require('mongoose')
 
 
 var {checkModel}=require('./models/checkModel')
